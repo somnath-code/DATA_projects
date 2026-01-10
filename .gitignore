@@ -1,0 +1,13 @@
+.ipynb_checkpoints/
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Data files (optional - if they are too large for GitHub)
+*.csv
+*.sqlite
