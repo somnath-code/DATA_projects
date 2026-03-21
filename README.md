@@ -9,9 +9,9 @@ Keep building. Keep breaking. Keep learning. That day of immense pride is closer
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Learning-red)
 ![AI/ML](https://img.shields.io/badge/AI-Explorer-purple)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=somnath-code&show_icons=true&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=somnath-code&layout=compact&theme=tokyonight)
 
 
 ![Project](https://img.shields.io/badge/Project-RealTime%20ETL-success)
