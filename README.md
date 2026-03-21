@@ -12,3 +12,8 @@ Keep building. Keep breaking. Keep learning. That day of immense pride is closer
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact)
+
+
+![Project](https://img.shields.io/badge/Project-RealTime%20ETL-success)
+![Status](https://img.shields.io/badge/Status-Production-blue)
+![Pipeline](https://img.shields.io/badge/Pipeline-Automated-brightgreen)
