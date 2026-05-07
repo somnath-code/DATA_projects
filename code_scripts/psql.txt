@@ -1,0 +1,91 @@
+\! cls
+\q = quit 
+\l = all databse
+\c Database name 
+\d Table name 
+\d include table and sequence if we want to see only the table then \dt give the table
+\i /Users/LENOVO/Downloads/person.sql= .sql is the file from here we can run a data via sql
+\df= list of function
+\dfp = stored proc
+\dv = list all view
+\dt+ = table + view
+\dn = list of schema
+\du = list of users 
+\conninfo → show current connection info
+\dt → list all tables
+\d tablename → describe a table (columns, types, constraints)
+\d+ viewname → show definition of a view
+\df+ funcname → show function details
+\sf funcname → show the source code of a function/procedure
+\di → list indexes
+\ds → list sequences
+\dS+ → list system tables/sequences/views
+\dy → list triggers
+\i filename.sql → execute commands from a file
+\e → open last command in editor
+\s → show command history
+\o filename → send query output to a file
+\dt public.* → show only tables in schema public
+\df *json* → find all functions with "json" in the name
+
+
+
+
+
+
+
+
+
+Case-insensitive version
+If you want to avoid case sensitivity, you can use ILIKE or LOWER():
+
+-- Using LOWER
+SELECT * FROM person
+WHERE LOWER(country) IN ('china', 'brazil')
+ORDER BY country;
+
+-- Or using ILIKE with OR
+
+SELECT * FROM person
+WHERE country ILIKE 'china' OR country ILIKE 'brazil'
+ORDER BY country;
+
+distinct countries in the person table:
+SELECT COUNT(DISTINCT country) AS total_countries
+FROM person;
+
+
+list them with counts, you can use:
+
+SELECT country, COUNT(*) AS people_count
+FROM person
+GROUP BY country
+ORDER BY people_count DESC;
+
+SELECT 
+    MIN(dob) AS earliest_dob,
+    MAX(dob) AS latest_dob
+FROM person;
+
+SELECT * FROM person WHERE email LIKE '%.com';
+SELECT COALESCE(email,'NO email') AS email
+FROM person;
+
+SELECT COALESCE(email, 'email not provided') AS email_display
+FROM person
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+WHERE email LIKE '%yahoo%';
+=======
+>>>>>>> 7a0feeb (Your commit message here)
+WHERE email LIKE '%yahoo%';
+
+DROP TABLE table name; (for delete the data but keep the table then we have to use "TRUNCATE")
+
+<<<<<<< HEAD
+-u postgres psql = to open psql in UBUNTU in WSL
+=======
+-u postgres psql = to open psql in UBUNTU in WSL
+>>>>>>> 0f880a5 (Initial commit)
+>>>>>>> 7a0feeb (Your commit message here)
